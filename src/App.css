@@ -1,0 +1,31 @@
+.grad-bg{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(114,9,121,1) 100%, rgba(171,0,255,1) 100%);
+}
+
+/* styles.css */
+
+.bg-metaLogo {
+  background-image: url('./assets/images/MF-logo rot.png');
+  background-repeat: no-repeat;
+    background-size: contain;
+  background-position: right;
+}
+.bg-stars {
+  background-image: url('./assets/images/9078 1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+
+}
+.auth-stars {
+  background-image: url('./assets/images/9078 1.png');
+  /* background-repeat: no-repeat; */
+  background-size: fill;
+
+}
+.bg-pink{
+  background-image: url('./assets/images/Background.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
