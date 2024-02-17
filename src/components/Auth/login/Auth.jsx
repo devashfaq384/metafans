@@ -38,11 +38,11 @@ function login() {
             <form className='flex flex-col' >
               <label htmlFor="Phone Number" className='text-white text-[14px] mb-5' >Enter your mobile phone number:</label>
               <PhoneNumber></PhoneNumber>
-                <button className='outline-none border-0 bg-gray-900 p-3 my-4 rounded-full text-gray-400' >
                 <Link to='/auth/confirmationCode' >
+                <button className='outline-none border-0 bg-gray-900 p-3 my-4 rounded-full text-gray-400' >
                   Continue
-                </Link>
                 </button>
+                </Link>
             </form>
           </div>
 
